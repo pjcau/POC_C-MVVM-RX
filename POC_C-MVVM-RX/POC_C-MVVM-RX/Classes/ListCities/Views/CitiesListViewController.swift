@@ -11,27 +11,21 @@ import RxSwift
 import UIKit
 
 /// Shows a list of cities
-class CitiesListViewController: UIViewController, StoryboardInitializable {
+class CitiesListViewController: MVVMController, StoryboardInitializable {
     @IBOutlet private var tableView: UITableView!
 
     var viewModel: CitiesListViewModel!
 
     private let disposeBag = DisposeBag()
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        setupUI()
-        setupBindings()
-    }
-
-    private func setupUI() {
+    internal override func setupUI() {
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 100
         tableView.tableFooterView = UIView()
         tableView.contentInsetAdjustmentBehavior = .never
     }
 
-    private func setupBindings() {
+    internal override func setupBindings() {
         // View Model outputs to the View Controller
         viewModel.cities
             .observeOn(MainScheduler.instance)
@@ -42,6 +36,10 @@ class CitiesListViewController: UIViewController, StoryboardInitializable {
 
         viewModel.title
             .bind(to: navigationItem.rx.title)
+            .disposed(by: disposeBag)
+
+        tableView.rx.modelSelected(CityViewModel.self)
+            .bind(to: viewModel.selectCity)
             .disposed(by: disposeBag)
     }
 

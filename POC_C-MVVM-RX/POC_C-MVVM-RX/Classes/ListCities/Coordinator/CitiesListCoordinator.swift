@@ -7,7 +7,6 @@
 //
 
 import RxSwift
-import SafariServices
 import UIKit
 
 class CitiesListCoordinator: BaseCoordinator<Void> {
@@ -25,9 +24,21 @@ class CitiesListCoordinator: BaseCoordinator<Void> {
 
         viewController.viewModel = viewModel
 
+        viewModel.showDetailForecast
+            .subscribe(onNext: { [weak self] in
+                _ = self?.showDetailForecast(navigation: navigationController, city: $0)
+                return
+            })
+            .disposed(by: disposeBag)
+
         window.rootViewController = navigationController
         window.makeKeyAndVisible()
 
         return Observable.never()
+    }
+
+    private func showDetailForecast(navigation: UINavigationController, city: String) -> Observable<Void> {
+        let detailForecastCoordinator = DetailForecastCoordinator(navigation: navigation, nameOfCity: city)
+        return coordinate(to: detailForecastCoordinator)
     }
 }
