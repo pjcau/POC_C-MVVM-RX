@@ -29,7 +29,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="69.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="8mg-qt-yyw" userLabel="City name">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8mg-qt-yyw" userLabel="City name">
                                                     <rect key="frame" x="20" y="8" width="374" height="53.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="44"/>
                                                     <nil key="textColor"/>
@@ -41,7 +41,6 @@
                                                 <constraint firstItem="8mg-qt-yyw" firstAttribute="leading" secondItem="pzD-7r-gcg" secondAttribute="leadingMargin" id="U9L-7d-hLz"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="8mg-qt-yyw" secondAttribute="trailing" id="V9i-dc-r3n"/>
                                                 <constraint firstAttribute="bottom" secondItem="8mg-qt-yyw" secondAttribute="bottom" constant="8" id="b0F-tt-PmK"/>
-                                                <constraint firstItem="8mg-qt-yyw" firstAttribute="centerX" secondItem="pzD-7r-gcg" secondAttribute="centerX" id="gGe-tI-YKW"/>
                                                 <constraint firstItem="8mg-qt-yyw" firstAttribute="top" secondItem="pzD-7r-gcg" secondAttribute="top" constant="8" id="sRL-kX-hOl"/>
                                             </constraints>
                                         </tableViewCellContentView>
