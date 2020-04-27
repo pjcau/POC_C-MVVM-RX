@@ -28,6 +28,7 @@
 		5FDF0D5B2456E70100F37F27 /* CityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDF0D5A2456E70100F37F27 /* CityViewModel.swift */; };
 		5FDF0D5D2456E76000F37F27 /* CitiesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDF0D5C2456E76000F37F27 /* CitiesListViewModel.swift */; };
 		5FDF0D5F2456E97A00F37F27 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDF0D5E2456E97A00F37F27 /* City.swift */; };
+		5FDF0D642457451600F37F27 /* AppNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDF0D632457451600F37F27 /* AppNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		5FDF0D5A2456E70100F37F27 /* CityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewModel.swift; sourceTree = "<group>"; };
 		5FDF0D5C2456E76000F37F27 /* CitiesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesListViewModel.swift; sourceTree = "<group>"; };
 		5FDF0D5E2456E97A00F37F27 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		5FDF0D632457451600F37F27 /* AppNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 			children = (
 				5FDF0D302456D66D00F37F27 /* AppDelegate.swift */,
 				5FDF0D2F2456D66D00F37F27 /* AppCoordinator.swift */,
+				5FDF0D632457451600F37F27 /* AppNavigationController.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -386,6 +389,7 @@
 				5FDF0D4D2456DCEB00F37F27 /* BaseCoordinator.swift in Sources */,
 				5FDF0D3E2456D81B00F37F27 /* CitiesListCoordinator.swift in Sources */,
 				5FDF0D5F2456E97A00F37F27 /* City.swift in Sources */,
+				5FDF0D642457451600F37F27 /* AppNavigationController.swift in Sources */,
 				5FDF0D502456E33B00F37F27 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -22,6 +22,14 @@ class DataService {
             "Madrid",
             "Lisbon",
             "Amsterdam",
+            "Bern",
+            "Athens",
+            "Moscow",
+            "Berlin",
+            "Oslo",
+            "Sofia",
+            "Dublin",
+            "Helsinki",
         ])
     }
 }

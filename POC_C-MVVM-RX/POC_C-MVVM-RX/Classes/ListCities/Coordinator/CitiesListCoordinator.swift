@@ -21,7 +21,7 @@ class CitiesListCoordinator: BaseCoordinator<Void> {
         let viewModel = CitiesListViewModel()
 
         let viewController = CitiesListViewController.initFromStoryboard()
-        let navigationController = UINavigationController(rootViewController: viewController)
+        let navigationController = AppNavigationController(rootViewController: viewController)
 
         viewController.viewModel = viewModel
 

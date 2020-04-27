@@ -23,15 +23,15 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CityViewCell" id="i2y-h6-HXg" userLabel="CityViewCell" customClass="CityViewCell" customModule="POC_C_MVVM_RX" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="78.5"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="69.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="i2y-h6-HXg" id="pzD-7r-gcg">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="78.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="69.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="8mg-qt-yyw" userLabel="City name">
-                                                    <rect key="frame" x="20" y="0.0" width="374" height="78.5"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="65"/>
+                                                    <rect key="frame" x="20" y="8" width="374" height="53.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="44"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -40,9 +40,9 @@
                                                 <constraint firstItem="8mg-qt-yyw" firstAttribute="centerY" secondItem="pzD-7r-gcg" secondAttribute="centerY" id="HcY-6T-SZo"/>
                                                 <constraint firstItem="8mg-qt-yyw" firstAttribute="leading" secondItem="pzD-7r-gcg" secondAttribute="leadingMargin" id="U9L-7d-hLz"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="8mg-qt-yyw" secondAttribute="trailing" id="V9i-dc-r3n"/>
-                                                <constraint firstAttribute="bottom" secondItem="8mg-qt-yyw" secondAttribute="bottom" id="b0F-tt-PmK"/>
+                                                <constraint firstAttribute="bottom" secondItem="8mg-qt-yyw" secondAttribute="bottom" constant="8" id="b0F-tt-PmK"/>
                                                 <constraint firstItem="8mg-qt-yyw" firstAttribute="centerX" secondItem="pzD-7r-gcg" secondAttribute="centerX" id="gGe-tI-YKW"/>
-                                                <constraint firstItem="8mg-qt-yyw" firstAttribute="top" secondItem="pzD-7r-gcg" secondAttribute="top" id="sRL-kX-hOl"/>
+                                                <constraint firstItem="8mg-qt-yyw" firstAttribute="top" secondItem="pzD-7r-gcg" secondAttribute="top" constant="8" id="sRL-kX-hOl"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>

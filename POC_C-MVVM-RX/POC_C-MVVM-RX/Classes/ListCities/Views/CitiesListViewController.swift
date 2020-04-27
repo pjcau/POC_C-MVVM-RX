@@ -28,6 +28,7 @@ class CitiesListViewController: UIViewController, StoryboardInitializable {
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 100
         tableView.tableFooterView = UIView()
+        tableView.contentInsetAdjustmentBehavior = .never
     }
 
     private func setupBindings() {
