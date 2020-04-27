@@ -24,7 +24,7 @@ struct CitiesListViewModel {
         title = Observable.just("Weather Cities")
 
         cities = dataService.getCities()
-         .map { cities in cities.map(City.init) }
-         .map { cities in cities.map(CityViewModel.init) }
+            .map { cities in cities.map(City.init) }
+            .map { cities in cities.map(CityViewModel.init) }
     }
 }

@@ -22,6 +22,4 @@ struct NetworkService {
     init(session: URLSession = URLSession.shared) {
         self.session = session
     }
-
-   
 }
