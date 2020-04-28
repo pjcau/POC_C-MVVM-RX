@@ -36,6 +36,7 @@
 		5FDF0D722457907800F37F27 /* DetailForecastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDF0D712457907800F37F27 /* DetailForecastViewModel.swift */; };
 		5FDF0D7524587B1E00F37F27 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDF0D7424587B1E00F37F27 /* WeatherViewModel.swift */; };
 		5FDF0D77245880DD00F37F27 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDF0D76245880DC00F37F27 /* WeatherCell.swift */; };
+		5FDF0D792458CCBB00F37F27 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDF0D782458CCBB00F37F27 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		5FDF0D712457907800F37F27 /* DetailForecastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailForecastViewModel.swift; sourceTree = "<group>"; };
 		5FDF0D7424587B1E00F37F27 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 		5FDF0D76245880DC00F37F27 /* WeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		5FDF0D782458CCBB00F37F27 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +206,7 @@
 			children = (
 				5FDF0D492456DCEA00F37F27 /* StoryboardInitializable.swift */,
 				5FDF0D6F2457904000F37F27 /* MVVMController.swift */,
+				5FDF0D782458CCBB00F37F27 /* Extensions.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -452,6 +455,7 @@
 				5FDF0D4D2456DCEB00F37F27 /* BaseCoordinator.swift in Sources */,
 				5FDF0D3E2456D81B00F37F27 /* CitiesListCoordinator.swift in Sources */,
 				5FDF0D77245880DD00F37F27 /* WeatherCell.swift in Sources */,
+				5FDF0D792458CCBB00F37F27 /* Extensions.swift in Sources */,
 				5FDF0D6B245785E100F37F27 /* DetailForecastCoordinator.swift in Sources */,
 				5FDF0D5F2456E97A00F37F27 /* Location.swift in Sources */,
 				5FDF0D642457451600F37F27 /* AppNavigationController.swift in Sources */,

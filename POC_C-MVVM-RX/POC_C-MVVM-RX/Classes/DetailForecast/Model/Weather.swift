@@ -4,7 +4,6 @@
 //
 //  Created by Pierre jonny cau on 27/04/2020.
 //  Copyright © 2020 Pierre Jonny Cau. All rights reserved.
-//
 
 import Foundation
 
@@ -176,7 +175,7 @@ struct List: Codable {
 
     enum CodingKeys: String, CodingKey {
         case dt, main, weather, clouds, wind, rain, sys
-        case dtTxt
+        case dtTxt = "dt_txt"
     }
 }
 
@@ -279,14 +278,14 @@ struct MainClass: Codable {
 
     enum CodingKeys: String, CodingKey {
         case temp
-        case feelsLike
-        case tempMin
-        case tempMax
+        case feelsLike = "feels_like"
+        case tempMin = "temp_min"
+        case tempMax = "temp_max"
         case pressure
-        case seaLevel
-        case grndLevel
+        case seaLevel = "sea_level"
+        case grndLevel = "grnd_level"
         case humidity
-        case tempKf
+        case tempKf = "temp_kf"
     }
 }
 
@@ -347,7 +346,7 @@ struct Rain: Codable {
     let the3H: Double?
 
     enum CodingKeys: String, CodingKey {
-        case the3H
+        case the3H = "3h"
     }
 }
 
@@ -442,7 +441,7 @@ struct WeatherElement: Codable {
 
     enum CodingKeys: String, CodingKey {
         case id, main
-        case weatherDescription
+        case weatherDescription = "description"
         case icon
     }
 }

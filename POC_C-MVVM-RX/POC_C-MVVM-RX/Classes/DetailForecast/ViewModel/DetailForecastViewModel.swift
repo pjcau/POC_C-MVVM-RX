@@ -17,8 +17,14 @@ struct DetailForecastViewModel {
 
     // MARK: - Outputs
 
-    /// Emits an object of weather.
-    let weathers: Observable<[WeatherViewModel]>
+    /// Emits a list of forecast
+    let listWeathers: Observable<[ForecastViewModel]>
+
+    /// Emits a object of weeather
+    let weather: Observable<WeatherViewModel>
+
+    /// Emits an object of City Info.
+    let cityMetadata: Observable<CityMetadataViewModel>
 
     /// Emits a formatted title for a navigation item.
     let title: Observable<String>
@@ -26,7 +32,7 @@ struct DetailForecastViewModel {
     /// Emits an error messages to be shown.
     let alertMessage: Observable<String>
 
-    init(city: String, network: NetworkService = NetworkService()) {
+    init(city: String, network: NetworkService = NetworkService(), days: Int = 3) {
         let _reload = PublishSubject<Void>()
         reload = _reload.asObserver()
 
@@ -38,7 +44,7 @@ struct DetailForecastViewModel {
         let _alertMessage = PublishSubject<String>()
         alertMessage = _alertMessage.asObservable()
 
-        weathers = Observable.combineLatest(_reload, _city) { _, city in city }
+        weather = Observable.combineLatest(_reload, _city) { _, city in city }
             .flatMapLatest { city in
                 network.getForecast(for: city)
                     .catchError { error in
@@ -46,6 +52,21 @@ struct DetailForecastViewModel {
                         return Observable.empty()
                     }
             }
-            .map { weathers in weathers.map(WeatherViewModel.init) }
+
+            .map { WeatherViewModel(weather: $0) }
+
+        cityMetadata = weather.map { CityMetadataViewModel(city: $0.weather.city) }
+
+        let checkTime = Int(Date().timeIntervalSince1970) + days * 24 * 3600
+
+        listWeathers = weather
+            .map { $0.weather.list }
+            .flatMap(ignoreNil)
+            .map { $0.filter { ($0.dt ?? -1) < checkTime } }
+            .map { list in list.map(ForecastViewModel.init) }
     }
+}
+
+func ignoreNil<A>(x: A?) -> Observable<A> {
+    return x.map { Observable.just($0) } ?? Observable.empty()
 }

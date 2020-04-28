@@ -32,7 +32,7 @@ class DetailForecastViewController: MVVMController, StoryboardInitializable {
     internal override func setupBindings() {
         // View Model outputs to the View Controller
 
-        viewModel.weathers
+        viewModel.listWeathers
             .observeOn(MainScheduler.instance)
             .do(onNext: { [weak self] _ in self?.refreshControl.endRefreshing() })
             .bind(to: tableView.rx.items(cellIdentifier: "WeatherCell", cellType: WeatherCell.self)) { [weak self] _, weather, cell in
@@ -55,9 +55,15 @@ class DetailForecastViewController: MVVMController, StoryboardInitializable {
             .disposed(by: disposeBag)
     }
 
-    private func setupWeatherCell(_ cell: WeatherCell, weather: WeatherViewModel) {
+    private func setupWeatherCell(_ cell: WeatherCell, weather: ForecastViewModel) {
         cell.selectionStyle = .none
-        cell.setTemperature("\(String(describing: weather.weather.list?.count))")
+
+        cell.setCurrendDate(weather.currentDate)
+        cell.setCurrentTemperature(weather.main.currentTemperature)
+        cell.setMaxTLabel(weather.main.maxTLabel)
+        cell.setMinTLabel(weather.main.minTLabel)
+        cell.setPressureLabel(weather.main.pressureLabel)
+        cell.setHumidityLabel(weather.main.humidityLabel)
     }
 
     private func presentAlert(message: String) {
