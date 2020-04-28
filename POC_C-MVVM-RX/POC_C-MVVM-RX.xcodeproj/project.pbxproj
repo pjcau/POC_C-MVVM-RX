@@ -126,12 +126,11 @@
 		5FDF0CFF2456D38D00F37F27 /* POC_C-MVVM-RX */ = {
 			isa = PBXGroup;
 			children = (
-				5FDF0D4E2456E2F400F37F27 /* Services */,
-				5FDF0D3B2456D7C600F37F27 /* Classes */,
 				5FDF0D2E2456D66D00F37F27 /* App */,
 				5FDF0D322456D66D00F37F27 /* Library */,
+				5FDF0D4E2456E2F400F37F27 /* Services */,
+				5FDF0D3B2456D7C600F37F27 /* Classes */,
 				5FDF0D2D2456D65F00F37F27 /* Resources */,
-				5FDF0D0E2456D38F00F37F27 /* Info.plist */,
 			);
 			path = "POC_C-MVVM-RX";
 			sourceTree = "<group>";
@@ -151,6 +150,7 @@
 				5FDF0D062456D38D00F37F27 /* Main.storyboard */,
 				5FDF0D092456D38F00F37F27 /* Assets.xcassets */,
 				5FDF0D0B2456D38F00F37F27 /* LaunchScreen.storyboard */,
+				5FDF0D0E2456D38F00F37F27 /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -624,7 +624,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5WA53Z6P42;
-				INFOPLIST_FILE = "POC_C-MVVM-RX/Info.plist";
+				INFOPLIST_FILE = "POC_C-MVVM-RX/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -643,7 +643,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5WA53Z6P42;
-				INFOPLIST_FILE = "POC_C-MVVM-RX/Info.plist";
+				INFOPLIST_FILE = "POC_C-MVVM-RX/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
