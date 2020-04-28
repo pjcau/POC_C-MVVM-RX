@@ -19,7 +19,7 @@ class DetailForecastCoordinator: BaseCoordinator<Void> {
     }
 
     override func start() -> Observable<Void> {
-        let viewModel = DetailForecastViewModel()
+        let viewModel = DetailForecastViewModel(city: nameOfCity)
 
         let viewController = DetailForecastViewController.initFromStoryboard()
 

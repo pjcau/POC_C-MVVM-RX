@@ -1,5 +1,5 @@
 //
-//  City.swift
+//  Location.swift
 //  POC_C-MVVM-RX
 //
 //  Created by Pierre jonny cau on 27/04/2020.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct City {
+struct Location {
     let name: String
 
     init(name: String) {
@@ -16,8 +16,8 @@ struct City {
     }
 }
 
-extension City: Equatable {
-    static func == (lhs: City, rhs: City) -> Bool {
+extension Location: Equatable {
+    static func == (lhs: Location, rhs: Location) -> Bool {
         return lhs.name == rhs.name
     }
 }

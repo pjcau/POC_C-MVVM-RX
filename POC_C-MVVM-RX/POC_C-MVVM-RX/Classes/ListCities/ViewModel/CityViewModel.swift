@@ -11,7 +11,7 @@ import Foundation
 struct CityViewModel {
     let name: String
 
-    init(city: City) {
+    init(city: Location) {
         name = city.name
     }
 }

@@ -30,7 +30,7 @@ struct CitiesListViewModel {
         title = Observable.just("Weather Cities")
 
         cities = dataService.getCities()
-            .map { cities in cities.map(City.init) }
+            .map { cities in cities.map(Location.init) }
             .map { cities in cities.map(CityViewModel.init) }
 
         let _selectCity = PublishSubject<CityViewModel>()

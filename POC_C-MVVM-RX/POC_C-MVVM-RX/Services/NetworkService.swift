@@ -29,16 +29,16 @@ struct NetworkService {
 
     /// - Parameter city: City to filter by
     /// - Returns: A struct with info about city
-    func getForecast(for city: String, days _: Int) -> Observable<Weather> {
-        let encodedCity = city.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)!
+    func getForecast(for city: String, days _: Int = 0) -> Observable<[Weather]> {
+        let encodedCity = city.lowercased().addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)!
         let url = URL(string: "https://api.openweathermap.org/data/2.5/forecast?q=\(encodedCity)&appid=\(ApiCredential.ApiKey)")!
         return session.rx
             .data(request: URLRequest(url: url))
-            .flatMap { data throws -> Observable<Weather> in
+            .flatMap { data throws -> Observable<[Weather]> in
                 guard let weather = try? Weather(data: data)
                 else { return Observable.error(ServiceError.errorToParse) }
 
-                return Observable.just(weather)
+                return Observable.just([weather])
             }
     }
 }

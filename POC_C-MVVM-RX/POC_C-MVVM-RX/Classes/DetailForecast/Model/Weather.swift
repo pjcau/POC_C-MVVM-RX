@@ -14,7 +14,7 @@ struct Weather: Codable {
     let cod: String?
     let message, cnt: Int?
     let list: [List]?
-    let cityWeather: CityWeather?
+    let city: City?
 }
 
 // MARK: Weather convenience initializers and mutators
@@ -40,14 +40,14 @@ extension Weather {
         message: Int?? = nil,
         cnt: Int?? = nil,
         list: [List]?? = nil,
-        cityWeather: CityWeather?? = nil
+        city: City?? = nil
     ) -> Weather {
         return Weather(
             cod: cod ?? self.cod,
             message: message ?? self.message,
             cnt: cnt ?? self.cnt,
             list: list ?? self.list,
-            cityWeather: cityWeather ?? self.cityWeather
+            city: city ?? self.city
         )
     }
 
@@ -60,9 +60,9 @@ extension Weather {
     }
 }
 
-// MARK: - CityWeather
+// MARK: - City
 
-struct CityWeather: Codable {
+struct City: Codable {
     let id: Int?
     let name: String?
     let coord: Coord?
@@ -70,11 +70,11 @@ struct CityWeather: Codable {
     let population, timezone, sunrise, sunset: Int?
 }
 
-// MARK: CityWeather convenience initializers and mutators
+// MARK: City convenience initializers and mutators
 
-extension CityWeather {
+extension City {
     init(data: Data) throws {
-        self = try newJSONDecoder().decode(CityWeather.self, from: data)
+        self = try newJSONDecoder().decode(City.self, from: data)
     }
 
     init(_ json: String, using encoding: String.Encoding = .utf8) throws {
@@ -97,8 +97,8 @@ extension CityWeather {
         timezone: Int?? = nil,
         sunrise: Int?? = nil,
         sunset: Int?? = nil
-    ) -> CityWeather {
-        return CityWeather(
+    ) -> City {
+        return City(
             id: id ?? self.id,
             name: name ?? self.name,
             coord: coord ?? self.coord,
@@ -170,14 +170,13 @@ struct List: Codable {
     let weather: [WeatherElement]?
     let clouds: Clouds?
     let wind: Wind?
+    let rain: Rain?
     let sys: Sys?
     let dtTxt: String?
-    let rain: Rain?
 
     enum CodingKeys: String, CodingKey {
-        case dt, main, weather, clouds, wind, sys
+        case dt, main, weather, clouds, wind, rain, sys
         case dtTxt
-        case rain
     }
 }
 
@@ -205,9 +204,9 @@ extension List {
         weather: [WeatherElement]?? = nil,
         clouds: Clouds?? = nil,
         wind: Wind?? = nil,
+        rain: Rain?? = nil,
         sys: Sys?? = nil,
-        dtTxt: String?? = nil,
-        rain: Rain?? = nil
+        dtTxt: String?? = nil
     ) -> List {
         return List(
             dt: dt ?? self.dt,
@@ -215,9 +214,9 @@ extension List {
             weather: weather ?? self.weather,
             clouds: clouds ?? self.clouds,
             wind: wind ?? self.wind,
+            rain: rain ?? self.rain,
             sys: sys ?? self.sys,
-            dtTxt: dtTxt ?? self.dtTxt,
-            rain: rain ?? self.rain
+            dtTxt: dtTxt ?? self.dtTxt
         )
     }
 
@@ -438,7 +437,8 @@ enum Pod: String, Codable {
 struct WeatherElement: Codable {
     let id: Int?
     let main: MainEnum?
-    let weatherDescription, icon: String?
+    let weatherDescription: Description?
+    let icon: String?
 
     enum CodingKeys: String, CodingKey {
         case id, main
@@ -468,7 +468,7 @@ extension WeatherElement {
     func with(
         id: Int?? = nil,
         main: MainEnum?? = nil,
-        weatherDescription: String?? = nil,
+        weatherDescription: Description?? = nil,
         icon: String?? = nil
     ) -> WeatherElement {
         return WeatherElement(
@@ -492,6 +492,15 @@ enum MainEnum: String, Codable {
     case clear = "Clear"
     case clouds = "Clouds"
     case rain = "Rain"
+}
+
+enum Description: String, Codable {
+    case brokenClouds = "broken clouds"
+    case clearSky = "clear sky"
+    case fewClouds = "few clouds"
+    case lightRain = "light rain"
+    case overcastClouds = "overcast clouds"
+    case scatteredClouds = "scattered clouds"
 }
 
 // MARK: - Wind
