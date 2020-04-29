@@ -13,8 +13,8 @@ protocol StoryboardInitializable {
 }
 
 extension StoryboardInitializable where Self: UIViewController {
-   static var storyboardIdentifier: String {
-           return String(describing: Self.self)
+    static var storyboardIdentifier: String {
+        return String(describing: Self.self)
     }
 
     static func initFromStoryboard(name: String = "Main") -> Self {
@@ -22,4 +22,3 @@ extension StoryboardInitializable where Self: UIViewController {
         return storyboard.instantiateViewController(withIdentifier: storyboardIdentifier) as! Self
     }
 }
- 

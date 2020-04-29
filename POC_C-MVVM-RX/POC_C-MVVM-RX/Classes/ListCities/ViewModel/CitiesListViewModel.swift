@@ -12,6 +12,9 @@ import RxSwift
 struct CitiesListViewModel {
     // MARK: - Inputs
 
+    /// Call to open repository page.
+    let selectCity: AnyObserver<CityViewModel>
+
     // MARK: - Outputs
 
     /// Emits an array of fetched repositories.
@@ -20,11 +23,21 @@ struct CitiesListViewModel {
     /// Emits a formatted title for a navigation item.
     let title: Observable<String>
 
+    /// Emits an string of city selected
+    let showDetailForecast: Observable<String>
+
     init(dataService: DataService = DataService()) {
         title = Observable.just("Weather Cities")
 
         cities = dataService.getCities()
-         .map { cities in cities.map(City.init) }
-         .map { cities in cities.map(CityViewModel.init) }
+            .map { cities in cities.map(Location.init) }
+            .map { cities in cities.map(CityViewModel.init) }
+
+        let _selectCity = PublishSubject<CityViewModel>()
+        selectCity = _selectCity.asObserver()
+
+        showDetailForecast = _selectCity.asObservable()
+
+            .map { $0.name }
     }
 }
