@@ -10,18 +10,35 @@ import Foundation
 import RxCocoa
 import RxSwift
 
-enum ServiceError: Error {
-    case errorToParse
+struct ApiCredential {
+    static let ApiKey = "21ffad50baecdb4d3615db49354f381c"
 }
 
 /// A service that knows how to perform requests for static data for the cities and get weather for it.
 
-struct NetworkService {
+class NetworkService {
     private let session: URLSession
 
     init(session: URLSession = URLSession.shared) {
         self.session = session
     }
 
-   
+    /// - Parameter city: City to filter by
+    /// - Returns: A struct with info about city
+    func getForecast(for city: String) -> Observable<Weather> {
+        let encodedCity = city.lowercased().addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)!
+        let url = URL(string: "https://api.openweathermap.org/data/2.5/forecast?q=\(encodedCity)&appid=\(ApiCredential.ApiKey)")!
+        return session.rx
+            .data(request: URLRequest(url: url))
+            .flatMap { data throws -> Observable<Weather> in
+
+                let weather: Weather?
+                do {
+                    weather = try Weather(data: data)
+                } catch {
+                    return Observable.error(error)
+                }
+                return Observable.just(weather!)
+            }
+    }
 }
