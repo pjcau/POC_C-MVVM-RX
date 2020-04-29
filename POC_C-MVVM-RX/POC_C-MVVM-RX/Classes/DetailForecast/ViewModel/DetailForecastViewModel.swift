@@ -9,7 +9,7 @@
 import Foundation
 import RxSwift
 
-struct DetailForecastViewModel {
+class DetailForecastViewModel {
     // MARK: - Inputs
 
     /// Call to reload weather.
@@ -61,12 +61,8 @@ struct DetailForecastViewModel {
 
         listWeathers = weather
             .map { $0.weather.list }
-            .flatMap(ignoreNil)
+            .ignoreNil()
             .map { $0.filter { ($0.dt ?? -1) < checkTime } }
             .map { list in list.map(ForecastViewModel.init) }
     }
-}
-
-func ignoreNil<A>(x: A?) -> Observable<A> {
-    return x.map { Observable.just($0) } ?? Observable.empty()
 }

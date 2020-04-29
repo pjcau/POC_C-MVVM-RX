@@ -20,7 +20,7 @@ enum ServiceError: Error {
 
 /// A service that knows how to perform requests for static data for the cities and get weather for it.
 
-struct NetworkService {
+class NetworkService {
     private let session: URLSession
 
     init(session: URLSession = URLSession.shared) {
