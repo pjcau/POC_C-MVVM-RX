@@ -52,10 +52,12 @@ class DetailForecastViewModel {
                         return Observable.empty()
                     }
             }
-
             .map { WeatherViewModel(weather: $0) }
 
-        cityMetadata = weather.map { CityMetadataViewModel(city: $0.weather.city) }
+        cityMetadata = weather
+            .map {
+                CityMetadataViewModel(city: $0.weather.city)
+            }
 
         let checkTime = Int(Date().timeIntervalSince1970) + days * 24 * 3600
 
@@ -63,6 +65,8 @@ class DetailForecastViewModel {
             .map { $0.weather.list }
             .ignoreNil()
             .map { $0.filter { ($0.dt ?? -1) < checkTime } }
-            .map { list in list.map(ForecastViewModel.init) }
+            .map {
+                list in list.map(ForecastViewModel.init)
+            }
     }
 }

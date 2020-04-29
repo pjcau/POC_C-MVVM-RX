@@ -45,7 +45,10 @@ class DetailForecastViewController: MVVMController, StoryboardInitializable {
             .disposed(by: disposeBag)
 
         viewModel.alertMessage
-            .subscribe(onNext: { [weak self] in self?.presentAlert(message: $0) })
+            .observeOn(MainScheduler.instance)
+            .subscribe(onNext: { [weak self] in
+                self?.presentAlert(message: $0)
+            })
             .disposed(by: disposeBag)
 
         // View Controller UI actions to the View Model

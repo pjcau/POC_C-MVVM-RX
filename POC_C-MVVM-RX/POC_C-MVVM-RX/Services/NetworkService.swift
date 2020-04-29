@@ -14,10 +14,6 @@ struct ApiCredential {
     static let ApiKey = "21ffad50baecdb4d3615db49354f381c"
 }
 
-enum ServiceError: Error {
-    case errorToParse
-}
-
 /// A service that knows how to perform requests for static data for the cities and get weather for it.
 
 class NetworkService {
@@ -35,10 +31,14 @@ class NetworkService {
         return session.rx
             .data(request: URLRequest(url: url))
             .flatMap { data throws -> Observable<Weather> in
-                guard let weather = try? Weather(data: data)
-                else { return Observable.error(ServiceError.errorToParse) }
 
-                return Observable.just(weather)
+                let weather: Weather?
+                do {
+                    weather = try Weather(data: data)
+                } catch {
+                    return Observable.error(error)
+                }
+                return Observable.just(weather!)
             }
     }
 }
