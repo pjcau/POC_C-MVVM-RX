@@ -318,6 +318,7 @@
 				5FDF0CFA2456D38D00F37F27 /* Frameworks */,
 				5FDF0CFB2456D38D00F37F27 /* Resources */,
 				5FDF0D3A2456D71500F37F27 /* Swift Format */,
+				5FDF0D7A245983BA00F37F27 /* Jazzy */,
 			);
 			buildRules = (
 			);
@@ -434,6 +435,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if which swiftformat >/dev/null; then\n  swiftformat .\nelse\n  echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\nfi\n";
+		};
+		5FDF0D7A245983BA00F37F27 /* Jazzy */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Jazzy;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#\n#jazzy \\\n#--clean \\\n#--author Jonny Cau \\\n#--github_url https://github.com/pjcau/POC_C-MVVM-RX \\\n#--module-version 1.0 \\\n#--module POC_C-MVVM-RX \\\n#--output docs/swift_output \\\n#--theme docs/themes\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
