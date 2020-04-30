@@ -16,27 +16,48 @@ extension Double {
 }
 
 extension Date {
-    func hours(from date: Date) -> Int {
-        return Calendar.current.dateComponents([.hour], from: date, to: self).hour ?? 0
-    }
-
     func ourFormat() -> String {
-        let diffHours = hours(from: Date())
-
+        let theCalendar = Calendar.current
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "HH:mm:ss"
         let time = dateFormatter.string(from: self).capitalized
 
-        switch diffHours {
-        case 0 ... 24:
+        func calcComponent(day: Int) -> DateComponents {
+            var dayComponent = DateComponents()
+            dayComponent.day = day
+            return dayComponent
+        }
+
+        func calculateMidNight() -> Date {
+            let now = Date()
+            let calendar = Calendar.current
+            let dateComponents = DateComponents(calendar: calendar,
+                                                year: calendar.component(.year, from: now),
+                                                month: calendar.component(.month, from: now),
+                                                day: calendar.component(.day, from: now),
+                                                hour: 0, minute: 0, second: 0)
+            return calendar.date(from: dateComponents)!
+        }
+
+        let midnightOfToday = calculateMidNight()
+
+        let tomorrow = theCalendar.date(byAdding: calcComponent(day: 1), to: midnightOfToday)!
+
+        let nextTomorrow = theCalendar.date(byAdding: calcComponent(day: 2), to: midnightOfToday)!
+
+        let twoNextTomorrow = theCalendar.date(byAdding: calcComponent(day: 3), to: midnightOfToday)!
+
+        let threeNextTomorrow = theCalendar.date(byAdding: calcComponent(day: 4), to: midnightOfToday)!
+
+        if (midnightOfToday ... tomorrow).contains(self) {
             return "Today - \(time)"
-        case 24 ... 48:
+        } else if (tomorrow ... nextTomorrow).contains(self) {
             return "Tomorrow - \(time)"
-        case 48 ... 72:
+        } else if (nextTomorrow ... twoNextTomorrow).contains(self) {
             return "Day after Tomorrow - \(time)"
-        case 72 ... 96:
+        } else if (twoNextTomorrow ... threeNextTomorrow).contains(self) {
             return "Next Day after Tomorrow - \(time)"
-        default:
+        } else {
             return description
         }
     }
