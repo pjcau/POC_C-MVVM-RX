@@ -74,4 +74,8 @@ class DetailForecastViewController: MVVMController, StoryboardInitializable {
         alertController.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
         present(alertController, animated: true)
     }
+
+    deinit {
+        print("Deinit \(self)")
+    }
 }

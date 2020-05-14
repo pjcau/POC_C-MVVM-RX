@@ -7,10 +7,9 @@
 //
 
 import Foundation
-import RxCocoa
 import RxSwift
 
-class DataService {
+struct DataService {
     /// - Returns: a list of cities.
     func getCities() -> Observable<[String]> {
         // For simplicity we will use a stubbed list of cities.
