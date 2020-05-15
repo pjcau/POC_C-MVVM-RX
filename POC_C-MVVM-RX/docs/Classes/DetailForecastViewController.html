@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DetailForecastViewController Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/DetailForecastViewController" class="dashAnchor"></a>
+    <a title="DetailForecastViewController Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a></p>
+        <p class="header-right"><a href="https://github.com/pjcau/POC_C-MVVM-RX"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        DetailForecastViewController Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AppCoordinator.html">AppCoordinator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AppNavigationController.html">AppNavigationController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BaseCoordinator.html">BaseCoordinator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CitiesListCoordinator.html">CitiesListCoordinator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CitiesListViewController.html">CitiesListViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CityViewCell.html">CityViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DetailForecastCoordinator.html">DetailForecastCoordinator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DetailForecastViewController.html">DetailForecastViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MVVMController.html">MVVMController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WeatherCell.html">WeatherCell</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/Description.html">Description</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/MainEnum.html">MainEnum</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Pod.html">Pod</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Date.html">Date</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Double.html">Double</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Observable.html">Observable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Optional.html">Optional</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:13POC_C_MVVM_RX14newJSONDecoder10Foundation0E0CyF">newJSONDecoder()</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:13POC_C_MVVM_RX14newJSONEncoder10Foundation0E0CyF">newJSONEncoder()</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/BaseViewController.html">BaseViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/OptionalType.html">OptionalType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/StoryboardInitializable.html">StoryboardInitializable</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/ApiCredential.html">ApiCredential</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CitiesListViewModel.html">CitiesListViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/City.html">City</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CityMetadataViewModel.html">CityMetadataViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CityViewModel.html">CityViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Clouds.html">Clouds</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Coord.html">Coord</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DataService.html">DataService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DetailForecastViewModel.html">DetailForecastViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForecastViewModel.html">ForecastViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/List.html">List</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/List/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Location.html">Location</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MainClass.html">MainClass</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MainClass/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MainForecatViewModel.html">MainForecatViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/NetworkService.html">NetworkService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Rain.html">Rain</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Rain/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Sys.html">Sys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Weather.html">Weather</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/WeatherElement.html">WeatherElement</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/WeatherElement/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/WeatherViewModel.html">WeatherViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Wind.html">Wind</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>DetailForecastViewController</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">DetailForecastViewController</span> <span class="p">:</span> <span class="kt"><a href="../Classes/MVVMController.html">MVVMController</a></span><span class="p">,</span> <span class="kt"><a href="../Protocols/StoryboardInitializable.html">StoryboardInitializable</a></span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13POC_C_MVVM_RX28DetailForecastViewControllerC9viewModelAA0defI0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/viewModel" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13POC_C_MVVM_RX28DetailForecastViewControllerC9viewModelAA0defI0VSgvp">viewModel</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">viewModel</span><span class="p">:</span> <span class="kt"><a href="../Structs/DetailForecastViewModel.html">DetailForecastViewModel</a></span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13POC_C_MVVM_RX28DetailForecastViewControllerC14refreshControl33_6AF75B9AB6EB0D944C9AAD66CF62E84ELLSo09UIRefreshI0Cvp"></a>
+                    <a name="//apple_ref/swift/Property/refreshControl" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13POC_C_MVVM_RX28DetailForecastViewControllerC14refreshControl33_6AF75B9AB6EB0D944C9AAD66CF62E84ELLSo09UIRefreshI0Cvp">refreshControl</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">let</span> <span class="nv">refreshControl</span><span class="p">:</span> <span class="kt">UIRefreshControl</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13POC_C_MVVM_RX28DetailForecastViewControllerC05tableF033_6AF75B9AB6EB0D944C9AAD66CF62E84ELLSo07UITableF0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/tableView" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13POC_C_MVVM_RX28DetailForecastViewControllerC05tableF033_6AF75B9AB6EB0D944C9AAD66CF62E84ELLSo07UITableF0CSgvp">tableView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="kd">private</span> <span class="k">var</span> <span class="nv">tableView</span><span class="p">:</span> <span class="kt">UITableView</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13POC_C_MVVM_RX28DetailForecastViewControllerC10disposeBag33_6AF75B9AB6EB0D944C9AAD66CF62E84ELL7RxSwift07DisposeI0Cvp"></a>
+                    <a name="//apple_ref/swift/Property/disposeBag" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13POC_C_MVVM_RX28DetailForecastViewControllerC10disposeBag33_6AF75B9AB6EB0D944C9AAD66CF62E84ELL7RxSwift07DisposeI0Cvp">disposeBag</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">let</span> <span class="nv">disposeBag</span><span class="p">:</span> <span class="kt">DisposeBag</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@POC_C_MVVM_RX@objc(cs)DetailForecastViewController(im)viewDidLoad"></a>
+                    <a name="//apple_ref/swift/Method/viewDidLoad()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@POC_C_MVVM_RX@objc(cs)DetailForecastViewController(im)viewDidLoad">viewDidLoad()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13POC_C_MVVM_RX28DetailForecastViewControllerC7setupUIyyF"></a>
+                    <a name="//apple_ref/swift/Method/setupUI()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13POC_C_MVVM_RX28DetailForecastViewControllerC7setupUIyyF">setupUI()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">internal</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">setupUI</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13POC_C_MVVM_RX28DetailForecastViewControllerC13setupBindingsyyF"></a>
+                    <a name="//apple_ref/swift/Method/setupBindings()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13POC_C_MVVM_RX28DetailForecastViewControllerC13setupBindingsyyF">setupBindings()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">internal</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">setupBindings</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13POC_C_MVVM_RX28DetailForecastViewControllerC16setupWeatherCell33_6AF75B9AB6EB0D944C9AAD66CF62E84ELL_7weatheryAA0iJ0C_AA0eF5ModelVtF"></a>
+                    <a name="//apple_ref/swift/Method/setupWeatherCell(_:weather:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13POC_C_MVVM_RX28DetailForecastViewControllerC16setupWeatherCell33_6AF75B9AB6EB0D944C9AAD66CF62E84ELL_7weatheryAA0iJ0C_AA0eF5ModelVtF">setupWeatherCell(_:<wbr>weather:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">setupWeatherCell</span><span class="p">(</span><span class="n">_</span> <span class="nv">cell</span><span class="p">:</span> <span class="kt"><a href="../Classes/WeatherCell.html">WeatherCell</a></span><span class="p">,</span> <span class="nv">weather</span><span class="p">:</span> <span class="kt"><a href="../Structs/ForecastViewModel.html">ForecastViewModel</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13POC_C_MVVM_RX28DetailForecastViewControllerC12presentAlert33_6AF75B9AB6EB0D944C9AAD66CF62E84ELL7messageySS_tF"></a>
+                    <a name="//apple_ref/swift/Method/presentAlert(message:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13POC_C_MVVM_RX28DetailForecastViewControllerC12presentAlert33_6AF75B9AB6EB0D944C9AAD66CF62E84ELL7messageySS_tF">presentAlert(message:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">presentAlert</span><span class="p">(</span><span class="nv">message</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@POC_C_MVVM_RX@objc(cs)DetailForecastViewController(im)dealloc"></a>
+                    <a name="//apple_ref/swift/Method/deinit" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@POC_C_MVVM_RX@objc(cs)DetailForecastViewController(im)dealloc">deinit</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">deinit</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="https://github.com/pjcau" target="_blank" rel="external">Jonny Cau</a>. All rights reserved. (Last updated: 2020-05-15)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

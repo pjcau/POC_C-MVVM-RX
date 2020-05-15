@@ -1,0 +1,9 @@
+
+clean: true
+skip_undocumented: false
+hide_documentation_coverage: true
+author: Jonny Cau
+author_url: https://github.com/pjcau
+github_url: https://github.com/pjcau/POC_C-MVVM-RX
+min_acl: private
+theme: apple

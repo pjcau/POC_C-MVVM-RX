@@ -47,7 +47,7 @@ class CitiesListViewController: MVVMController, StoryboardInitializable {
         cell.selectionStyle = .none
         cell.setCity(city.name)
     }
-    
+
     deinit {
         print("Deinit \(self)")
     }

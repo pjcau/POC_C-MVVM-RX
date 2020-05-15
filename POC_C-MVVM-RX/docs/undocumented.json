@@ -1,0 +1,1937 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/App/AppCoordinator.swift",
+      "line": 12,
+      "symbol": "AppCoordinator",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/App/AppCoordinator.swift",
+      "line": 13,
+      "symbol": "AppCoordinator.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/App/AppCoordinator.swift",
+      "line": 15,
+      "symbol": "AppCoordinator.init(window:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/App/AppDelegate.swift",
+      "line": 13,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/App/AppDelegate.swift",
+      "line": 14,
+      "symbol": "AppDelegate.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/App/AppDelegate.swift",
+      "line": 15,
+      "symbol": "AppDelegate.appCoordinator",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/App/AppDelegate.swift",
+      "line": 16,
+      "symbol": "AppDelegate.disposeBag",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/App/AppDelegate.swift",
+      "line": 18,
+      "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/App/AppNavigationController.swift",
+      "line": 11,
+      "symbol": "AppNavigationController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/App/AppNavigationController.swift",
+      "line": 12,
+      "symbol": "AppNavigationController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/App/AppNavigationController.swift",
+      "line": 17,
+      "symbol": "AppNavigationController.setupUI()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Coordinator/DetailForecastCoordinator.swift",
+      "line": 12,
+      "symbol": "DetailForecastCoordinator",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Coordinator/DetailForecastCoordinator.swift",
+      "line": 13,
+      "symbol": "DetailForecastCoordinator.navigation",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Coordinator/DetailForecastCoordinator.swift",
+      "line": 14,
+      "symbol": "DetailForecastCoordinator.nameOfCity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Coordinator/DetailForecastCoordinator.swift",
+      "line": 16,
+      "symbol": "DetailForecastCoordinator.init(navigation:nameOfCity:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 12,
+      "symbol": "Weather",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 13,
+      "symbol": "Weather.cod",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 14,
+      "symbol": "Weather.cnt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 14,
+      "symbol": "Weather.message",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 15,
+      "symbol": "Weather.list",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 16,
+      "symbol": "Weather.city",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 21,
+      "symbol": "Weather",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 22,
+      "symbol": "Weather.init(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 26,
+      "symbol": "Weather.init(_:using:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 33,
+      "symbol": "Weather.init(fromURL:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 37,
+      "symbol": "Weather.with(cod:message:cnt:list:city:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 53,
+      "symbol": "Weather.jsonData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 57,
+      "symbol": "Weather.jsonString(encoding:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 64,
+      "symbol": "City",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 65,
+      "symbol": "City.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 66,
+      "symbol": "City.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 67,
+      "symbol": "City.coord",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 68,
+      "symbol": "City.country",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 69,
+      "symbol": "City.population",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 69,
+      "symbol": "City.sunrise",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 69,
+      "symbol": "City.sunset",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 69,
+      "symbol": "City.timezone",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 74,
+      "symbol": "City",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 75,
+      "symbol": "City.init(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 79,
+      "symbol": "City.init(_:using:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 86,
+      "symbol": "City.init(fromURL:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 90,
+      "symbol": "City.with(id:name:coord:country:population:timezone:sunrise:sunset:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 112,
+      "symbol": "City.jsonData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 116,
+      "symbol": "City.jsonString(encoding:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 123,
+      "symbol": "Coord",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 124,
+      "symbol": "Coord.lat",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 124,
+      "symbol": "Coord.lon",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 129,
+      "symbol": "Coord",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 130,
+      "symbol": "Coord.init(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 134,
+      "symbol": "Coord.init(_:using:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 141,
+      "symbol": "Coord.init(fromURL:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 145,
+      "symbol": "Coord.with(lat:lon:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 155,
+      "symbol": "Coord.jsonData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 159,
+      "symbol": "Coord.jsonString(encoding:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 166,
+      "symbol": "List",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 167,
+      "symbol": "List.dt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 168,
+      "symbol": "List.main",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 169,
+      "symbol": "List.weather",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 170,
+      "symbol": "List.clouds",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 171,
+      "symbol": "List.wind",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 172,
+      "symbol": "List.rain",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 173,
+      "symbol": "List.sys",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 174,
+      "symbol": "List.dtTxt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 176,
+      "symbol": "List.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 177,
+      "symbol": "List.CodingKeys.clouds",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 177,
+      "symbol": "List.CodingKeys.dt",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 177,
+      "symbol": "List.CodingKeys.main",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 177,
+      "symbol": "List.CodingKeys.rain",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 177,
+      "symbol": "List.CodingKeys.sys",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 177,
+      "symbol": "List.CodingKeys.weather",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 177,
+      "symbol": "List.CodingKeys.wind",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 178,
+      "symbol": "List.CodingKeys.dtTxt",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 184,
+      "symbol": "List",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 185,
+      "symbol": "List.init(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 189,
+      "symbol": "List.init(_:using:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 196,
+      "symbol": "List.init(fromURL:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 200,
+      "symbol": "List.with(dt:main:weather:clouds:wind:rain:sys:dtTxt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 222,
+      "symbol": "List.jsonData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 226,
+      "symbol": "List.jsonString(encoding:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 233,
+      "symbol": "Clouds",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 234,
+      "symbol": "Clouds.all",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 239,
+      "symbol": "Clouds",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 240,
+      "symbol": "Clouds.init(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 244,
+      "symbol": "Clouds.init(_:using:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 251,
+      "symbol": "Clouds.init(fromURL:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 255,
+      "symbol": "Clouds.with(all:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 263,
+      "symbol": "Clouds.jsonData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 267,
+      "symbol": "Clouds.jsonString(encoding:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 274,
+      "symbol": "MainClass",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 275,
+      "symbol": "MainClass.feelsLike",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 275,
+      "symbol": "MainClass.temp",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 275,
+      "symbol": "MainClass.tempMax",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 275,
+      "symbol": "MainClass.tempMin",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 276,
+      "symbol": "MainClass.grndLevel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 276,
+      "symbol": "MainClass.humidity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 276,
+      "symbol": "MainClass.pressure",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 276,
+      "symbol": "MainClass.seaLevel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 277,
+      "symbol": "MainClass.tempKf",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 279,
+      "symbol": "MainClass.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 280,
+      "symbol": "MainClass.CodingKeys.temp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 281,
+      "symbol": "MainClass.CodingKeys.feelsLike",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 282,
+      "symbol": "MainClass.CodingKeys.tempMin",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 283,
+      "symbol": "MainClass.CodingKeys.tempMax",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 284,
+      "symbol": "MainClass.CodingKeys.pressure",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 285,
+      "symbol": "MainClass.CodingKeys.seaLevel",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 286,
+      "symbol": "MainClass.CodingKeys.grndLevel",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 287,
+      "symbol": "MainClass.CodingKeys.humidity",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 288,
+      "symbol": "MainClass.CodingKeys.tempKf",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 294,
+      "symbol": "MainClass",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 295,
+      "symbol": "MainClass.init(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 299,
+      "symbol": "MainClass.init(_:using:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 306,
+      "symbol": "MainClass.init(fromURL:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 310,
+      "symbol": "MainClass.with(temp:feelsLike:tempMin:tempMax:pressure:seaLevel:grndLevel:humidity:tempKf:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 334,
+      "symbol": "MainClass.jsonData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 338,
+      "symbol": "MainClass.jsonString(encoding:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 345,
+      "symbol": "Rain",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 346,
+      "symbol": "Rain.the3H",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 348,
+      "symbol": "Rain.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 349,
+      "symbol": "Rain.CodingKeys.the3H",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 355,
+      "symbol": "Rain",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 356,
+      "symbol": "Rain.init(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 360,
+      "symbol": "Rain.init(_:using:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 367,
+      "symbol": "Rain.init(fromURL:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 371,
+      "symbol": "Rain.with(the3H:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 379,
+      "symbol": "Rain.jsonData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 383,
+      "symbol": "Rain.jsonString(encoding:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 390,
+      "symbol": "Sys",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 391,
+      "symbol": "Sys.pod",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 396,
+      "symbol": "Sys",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 397,
+      "symbol": "Sys.init(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 401,
+      "symbol": "Sys.init(_:using:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 408,
+      "symbol": "Sys.init(fromURL:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 412,
+      "symbol": "Sys.with(pod:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 420,
+      "symbol": "Sys.jsonData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 424,
+      "symbol": "Sys.jsonString(encoding:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 429,
+      "symbol": "Pod",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 430,
+      "symbol": "Pod.d",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 431,
+      "symbol": "Pod.n",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 436,
+      "symbol": "WeatherElement",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 437,
+      "symbol": "WeatherElement.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 438,
+      "symbol": "WeatherElement.main",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 439,
+      "symbol": "WeatherElement.weatherDescription",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 440,
+      "symbol": "WeatherElement.icon",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 442,
+      "symbol": "WeatherElement.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 443,
+      "symbol": "WeatherElement.CodingKeys.id",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 443,
+      "symbol": "WeatherElement.CodingKeys.main",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 444,
+      "symbol": "WeatherElement.CodingKeys.weatherDescription",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 445,
+      "symbol": "WeatherElement.CodingKeys.icon",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 451,
+      "symbol": "WeatherElement",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 452,
+      "symbol": "WeatherElement.init(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 456,
+      "symbol": "WeatherElement.init(_:using:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 463,
+      "symbol": "WeatherElement.init(fromURL:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 467,
+      "symbol": "WeatherElement.with(id:main:weatherDescription:icon:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 481,
+      "symbol": "WeatherElement.jsonData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 485,
+      "symbol": "WeatherElement.jsonString(encoding:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 490,
+      "symbol": "MainEnum",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 491,
+      "symbol": "MainEnum.clear",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 492,
+      "symbol": "MainEnum.clouds",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 493,
+      "symbol": "MainEnum.rain",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 496,
+      "symbol": "Description",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 497,
+      "symbol": "Description.brokenClouds",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 498,
+      "symbol": "Description.clearSky",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 499,
+      "symbol": "Description.fewClouds",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 500,
+      "symbol": "Description.lightRain",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 501,
+      "symbol": "Description.overcastClouds",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 502,
+      "symbol": "Description.scatteredClouds",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 507,
+      "symbol": "Wind",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 508,
+      "symbol": "Wind.speed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 509,
+      "symbol": "Wind.deg",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 514,
+      "symbol": "Wind",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 515,
+      "symbol": "Wind.init(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 519,
+      "symbol": "Wind.init(_:using:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 526,
+      "symbol": "Wind.init(fromURL:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 530,
+      "symbol": "Wind.with(speed:deg:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 540,
+      "symbol": "Wind.jsonData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 544,
+      "symbol": "Wind.jsonString(encoding:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 551,
+      "symbol": "newJSONDecoder()",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/Model/Weather.swift",
+      "line": 559,
+      "symbol": "newJSONEncoder()",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/View/DetailForecastViewController.swift",
+      "line": 13,
+      "symbol": "DetailForecastViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/View/DetailForecastViewController.swift",
+      "line": 14,
+      "symbol": "DetailForecastViewController.viewModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/View/DetailForecastViewController.swift",
+      "line": 15,
+      "symbol": "DetailForecastViewController.refreshControl",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/View/DetailForecastViewController.swift",
+      "line": 16,
+      "symbol": "DetailForecastViewController.tableView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/View/DetailForecastViewController.swift",
+      "line": 18,
+      "symbol": "DetailForecastViewController.disposeBag",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/View/DetailForecastViewController.swift",
+      "line": 20,
+      "symbol": "DetailForecastViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/View/DetailForecastViewController.swift",
+      "line": 26,
+      "symbol": "DetailForecastViewController.setupUI()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/View/DetailForecastViewController.swift",
+      "line": 32,
+      "symbol": "DetailForecastViewController.setupBindings()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/View/DetailForecastViewController.swift",
+      "line": 61,
+      "symbol": "DetailForecastViewController.setupWeatherCell(_:weather:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/View/DetailForecastViewController.swift",
+      "line": 72,
+      "symbol": "DetailForecastViewController.presentAlert(message:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/View/DetailForecastViewController.swift",
+      "line": 78,
+      "symbol": "DetailForecastViewController.deinit",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/View/WeatherCell.swift",
+      "line": 11,
+      "symbol": "WeatherCell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/View/WeatherCell.swift",
+      "line": 12,
+      "symbol": "WeatherCell.dateLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/View/WeatherCell.swift",
+      "line": 13,
+      "symbol": "WeatherCell.currentTemperature",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/View/WeatherCell.swift",
+      "line": 14,
+      "symbol": "WeatherCell.minTLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/View/WeatherCell.swift",
+      "line": 15,
+      "symbol": "WeatherCell.maxTLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/View/WeatherCell.swift",
+      "line": 16,
+      "symbol": "WeatherCell.pressureLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/View/WeatherCell.swift",
+      "line": 17,
+      "symbol": "WeatherCell.humidityLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/View/WeatherCell.swift",
+      "line": 19,
+      "symbol": "WeatherCell.setCurrendDate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/View/WeatherCell.swift",
+      "line": 23,
+      "symbol": "WeatherCell.setCurrentTemperature(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/View/WeatherCell.swift",
+      "line": 27,
+      "symbol": "WeatherCell.setMinTLabel(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/View/WeatherCell.swift",
+      "line": 31,
+      "symbol": "WeatherCell.setMaxTLabel(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/View/WeatherCell.swift",
+      "line": 35,
+      "symbol": "WeatherCell.setPressureLabel(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/View/WeatherCell.swift",
+      "line": 39,
+      "symbol": "WeatherCell.setHumidityLabel(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/ViewModel/DetailForecastViewModel.swift",
+      "line": 12,
+      "symbol": "DetailForecastViewModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/ViewModel/DetailForecastViewModel.swift",
+      "line": 35,
+      "symbol": "DetailForecastViewModel.init(city:network:days:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/ViewModel/WeatherViewModel.swift",
+      "line": 11,
+      "symbol": "WeatherViewModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/ViewModel/WeatherViewModel.swift",
+      "line": 12,
+      "symbol": "WeatherViewModel.weather",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/ViewModel/WeatherViewModel.swift",
+      "line": 14,
+      "symbol": "WeatherViewModel.init(weather:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/ViewModel/WeatherViewModel.swift",
+      "line": 19,
+      "symbol": "CityMetadataViewModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/ViewModel/WeatherViewModel.swift",
+      "line": 20,
+      "symbol": "CityMetadataViewModel.city",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/ViewModel/WeatherViewModel.swift",
+      "line": 22,
+      "symbol": "CityMetadataViewModel.init(city:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/ViewModel/WeatherViewModel.swift",
+      "line": 27,
+      "symbol": "ForecastViewModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/ViewModel/WeatherViewModel.swift",
+      "line": 28,
+      "symbol": "ForecastViewModel.forecast",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/ViewModel/WeatherViewModel.swift",
+      "line": 29,
+      "symbol": "ForecastViewModel.main",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/ViewModel/WeatherViewModel.swift",
+      "line": 30,
+      "symbol": "ForecastViewModel.currentDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/ViewModel/WeatherViewModel.swift",
+      "line": 32,
+      "symbol": "ForecastViewModel.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/ViewModel/WeatherViewModel.swift",
+      "line": 49,
+      "symbol": "MainForecatViewModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/ViewModel/WeatherViewModel.swift",
+      "line": 50,
+      "symbol": "MainForecatViewModel.main",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/ViewModel/WeatherViewModel.swift",
+      "line": 52,
+      "symbol": "MainForecatViewModel.currentTemperature",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/ViewModel/WeatherViewModel.swift",
+      "line": 53,
+      "symbol": "MainForecatViewModel.minTLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/ViewModel/WeatherViewModel.swift",
+      "line": 54,
+      "symbol": "MainForecatViewModel.maxTLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/ViewModel/WeatherViewModel.swift",
+      "line": 55,
+      "symbol": "MainForecatViewModel.pressureLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/ViewModel/WeatherViewModel.swift",
+      "line": 56,
+      "symbol": "MainForecatViewModel.humidityLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/ViewModel/WeatherViewModel.swift",
+      "line": 58,
+      "symbol": "MainForecatViewModel.init(main:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/ViewModel/WeatherViewModel.swift",
+      "line": 69,
+      "symbol": "MainForecatViewModel",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/ViewModel/WeatherViewModel.swift",
+      "line": 70,
+      "symbol": "MainForecatViewModel.currentTemperature(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/ViewModel/WeatherViewModel.swift",
+      "line": 74,
+      "symbol": "MainForecatViewModel.minTemperature(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/DetailForecast/ViewModel/WeatherViewModel.swift",
+      "line": 78,
+      "symbol": "MainForecatViewModel.maxTemperature(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/ListCities/Coordinator/CitiesListCoordinator.swift",
+      "line": 12,
+      "symbol": "CitiesListCoordinator",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/ListCities/Coordinator/CitiesListCoordinator.swift",
+      "line": 13,
+      "symbol": "CitiesListCoordinator.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/ListCities/Coordinator/CitiesListCoordinator.swift",
+      "line": 15,
+      "symbol": "CitiesListCoordinator.init(window:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/ListCities/Coordinator/CitiesListCoordinator.swift",
+      "line": 40,
+      "symbol": "CitiesListCoordinator.showDetailForecast(navigation:city:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/ListCities/Model/Location.swift",
+      "line": 11,
+      "symbol": "Location",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/ListCities/Model/Location.swift",
+      "line": 12,
+      "symbol": "Location.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/ListCities/Model/Location.swift",
+      "line": 14,
+      "symbol": "Location.init(name:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/ListCities/Model/Location.swift",
+      "line": 19,
+      "symbol": "Location",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/ListCities/ViewModel/CitiesListViewModel.swift",
+      "line": 12,
+      "symbol": "CitiesListViewModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/ListCities/ViewModel/CitiesListViewModel.swift",
+      "line": 29,
+      "symbol": "CitiesListViewModel.init(dataService:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/ListCities/ViewModel/CityViewModel.swift",
+      "line": 11,
+      "symbol": "CityViewModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/ListCities/ViewModel/CityViewModel.swift",
+      "line": 12,
+      "symbol": "CityViewModel.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/ListCities/ViewModel/CityViewModel.swift",
+      "line": 14,
+      "symbol": "CityViewModel.init(city:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/ListCities/Views/CitiesListViewController.swift",
+      "line": 15,
+      "symbol": "CitiesListViewController.tableView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/ListCities/Views/CitiesListViewController.swift",
+      "line": 17,
+      "symbol": "CitiesListViewController.viewModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/ListCities/Views/CitiesListViewController.swift",
+      "line": 19,
+      "symbol": "CitiesListViewController.disposeBag",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/ListCities/Views/CitiesListViewController.swift",
+      "line": 21,
+      "symbol": "CitiesListViewController.setupUI()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/ListCities/Views/CitiesListViewController.swift",
+      "line": 28,
+      "symbol": "CitiesListViewController.setupBindings()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/ListCities/Views/CitiesListViewController.swift",
+      "line": 46,
+      "symbol": "CitiesListViewController.setupCityCell(_:city:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/ListCities/Views/CitiesListViewController.swift",
+      "line": 51,
+      "symbol": "CitiesListViewController.deinit",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/ListCities/Views/CityViewCell.swift",
+      "line": 10,
+      "symbol": "CityViewCell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/ListCities/Views/CityViewCell.swift",
+      "line": 11,
+      "symbol": "CityViewCell.nameLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Classes/ListCities/Views/CityViewCell.swift",
+      "line": 13,
+      "symbol": "CityViewCell.setCity(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Library/Utilities/Extensions.swift",
+      "line": 13,
+      "symbol": "Double.fromKTC()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Library/Utilities/Extensions.swift",
+      "line": 19,
+      "symbol": "Date.ourFormat()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Library/Utilities/Extensions.swift",
+      "line": 25,
+      "symbol": "Date.ourFormat().calcComponent(day:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Library/Utilities/Extensions.swift",
+      "line": 31,
+      "symbol": "Date.ourFormat().calculateMidNight()",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Library/Utilities/Extensions.swift",
+      "line": 66,
+      "symbol": "OptionalType",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Library/Utilities/Extensions.swift",
+      "line": 67,
+      "symbol": "OptionalType.Wrapped",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Library/Utilities/Extensions.swift",
+      "line": 69,
+      "symbol": "OptionalType.optional",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Library/Utilities/Extensions.swift",
+      "line": 73,
+      "symbol": "Optional.optional",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Library/Utilities/Extensions.swift",
+      "line": 78,
+      "symbol": "Observable.ignoreNil()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Library/Utilities/MVVMController.swift",
+      "line": 11,
+      "symbol": "BaseViewController",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Library/Utilities/MVVMController.swift",
+      "line": 12,
+      "symbol": "BaseViewController.setupUI()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Library/Utilities/MVVMController.swift",
+      "line": 13,
+      "symbol": "BaseViewController.setupBindings()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Library/Utilities/MVVMController.swift",
+      "line": 16,
+      "symbol": "MVVMController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Library/Utilities/MVVMController.swift",
+      "line": 17,
+      "symbol": "MVVMController.setupUI()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Library/Utilities/MVVMController.swift",
+      "line": 19,
+      "symbol": "MVVMController.setupBindings()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Library/Utilities/MVVMController.swift",
+      "line": 21,
+      "symbol": "MVVMController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Library/Utilities/StoryboardInitializable.swift",
+      "line": 11,
+      "symbol": "StoryboardInitializable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Library/Utilities/StoryboardInitializable.swift",
+      "line": 12,
+      "symbol": "StoryboardInitializable.storyboardIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Library/Utilities/StoryboardInitializable.swift",
+      "line": 15,
+      "symbol": "StoryboardInitializable",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Library/Utilities/StoryboardInitializable.swift",
+      "line": 16,
+      "symbol": "StoryboardInitializable.storyboardIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Library/Utilities/StoryboardInitializable.swift",
+      "line": 20,
+      "symbol": "StoryboardInitializable.initFromStoryboard(name:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Services/DataService.swift",
+      "line": 12,
+      "symbol": "DataService",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Services/NetworkService.swift",
+      "line": 13,
+      "symbol": "ApiCredential",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Services/NetworkService.swift",
+      "line": 14,
+      "symbol": "ApiCredential.ApiKey",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Services/NetworkService.swift",
+      "line": 20,
+      "symbol": "NetworkService.session",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX/POC_C-MVVM-RX/Services/NetworkService.swift",
+      "line": 22,
+      "symbol": "NetworkService.init(session:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/jonnycau/Documents/OtherProject/POC_C-MVVM-RX/POC_C-MVVM-RX"
+}
