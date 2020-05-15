@@ -9,7 +9,7 @@
 import Foundation
 import RxSwift
 
-class DetailForecastViewModel {
+struct DetailForecastViewModel {
     // MARK: - Inputs
 
     /// Call to reload weather.

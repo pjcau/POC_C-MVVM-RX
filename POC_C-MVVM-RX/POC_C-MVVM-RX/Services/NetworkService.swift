@@ -16,7 +16,7 @@ struct ApiCredential {
 
 /// A service that knows how to perform requests for static data for the cities and get weather for it.
 
-class NetworkService {
+struct NetworkService {
     private let session: URLSession
 
     init(session: URLSession = URLSession.shared) {
