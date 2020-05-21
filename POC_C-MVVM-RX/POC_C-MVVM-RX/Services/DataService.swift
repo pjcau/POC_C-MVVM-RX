@@ -9,7 +9,11 @@
 import Foundation
 import RxSwift
 
-struct DataService {
+protocol DataServiceble {
+    func getCities() -> Observable<[String]>
+}
+
+struct DataService: DataServiceble {
     /// - Returns: a list of cities.
     func getCities() -> Observable<[String]> {
         // For simplicity we will use a stubbed list of cities.

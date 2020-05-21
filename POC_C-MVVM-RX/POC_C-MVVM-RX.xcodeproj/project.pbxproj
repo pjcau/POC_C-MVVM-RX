@@ -12,10 +12,12 @@
 		5F3004BC246DEB2100C92830 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3004AF246DEAE400C92830 /* RxCocoa.framework */; };
 		5F3004BF246DEB2300C92830 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3004B0246DEAE400C92830 /* RxRelay.framework */; };
 		5F3004C1246DEB2500C92830 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3004AE246DEAE400C92830 /* RxSwift.framework */; };
+		5F528B792476BF760023E1B9 /* DataServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F528B782476BF760023E1B9 /* DataServiceMock.swift */; };
+		5F528B7C2477024F0023E1B9 /* LocationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F528B7B2477024F0023E1B9 /* LocationTest.swift */; };
+		5F528B7F24770B0B0023E1B9 /* CityViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F528B7E24770B0B0023E1B9 /* CityViewModelTest.swift */; };
 		5FDF0D082456D38D00F37F27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FDF0D062456D38D00F37F27 /* Main.storyboard */; };
 		5FDF0D0A2456D38F00F37F27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FDF0D092456D38F00F37F27 /* Assets.xcassets */; };
 		5FDF0D0D2456D38F00F37F27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FDF0D0B2456D38F00F37F27 /* LaunchScreen.storyboard */; };
-		5FDF0D182456D38F00F37F27 /* POC_C_MVVM_RXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDF0D172456D38F00F37F27 /* POC_C_MVVM_RXTests.swift */; };
 		5FDF0D352456D66D00F37F27 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDF0D2F2456D66D00F37F27 /* AppCoordinator.swift */; };
 		5FDF0D362456D66E00F37F27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDF0D302456D66D00F37F27 /* AppDelegate.swift */; };
 		5FDF0D3E2456D81B00F37F27 /* CitiesListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDF0D3D2456D81B00F37F27 /* CitiesListCoordinator.swift */; };
@@ -55,13 +57,15 @@
 		5F3004B0246DEAE400C92830 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
 		5F3004B8246DEB0600C92830 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
 		5F3004B9246DEB0600C92830 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		5F528B782476BF760023E1B9 /* DataServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServiceMock.swift; sourceTree = "<group>"; };
+		5F528B7B2477024F0023E1B9 /* LocationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTest.swift; sourceTree = "<group>"; };
+		5F528B7E24770B0B0023E1B9 /* CityViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewModelTest.swift; sourceTree = "<group>"; };
 		5FDF0CFD2456D38D00F37F27 /* POC_C-MVVM-RX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POC_C-MVVM-RX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FDF0D072456D38D00F37F27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5FDF0D092456D38F00F37F27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FDF0D0C2456D38F00F37F27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FDF0D0E2456D38F00F37F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FDF0D132456D38F00F37F27 /* POC_C-MVVM-RXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POC_C-MVVM-RXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FDF0D172456D38F00F37F27 /* POC_C_MVVM_RXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_C_MVVM_RXTests.swift; sourceTree = "<group>"; };
 		5FDF0D192456D38F00F37F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FDF0D2F2456D66D00F37F27 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		5FDF0D302456D66D00F37F27 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +113,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F528B772476BF4D0023E1B9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5F528B782476BF760023E1B9 /* DataServiceMock.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5F528B7A2476C29D0023E1B9 /* ListViewCitites */ = {
+			isa = PBXGroup;
+			children = (
+				5F528B7B2477024F0023E1B9 /* LocationTest.swift */,
+				5F528B7E24770B0B0023E1B9 /* CityViewModelTest.swift */,
+			);
+			path = ListViewCitites;
+			sourceTree = "<group>";
+		};
 		5FDF0CF42456D38D00F37F27 = {
 			isa = PBXGroup;
 			children = (
@@ -143,7 +164,8 @@
 		5FDF0D162456D38F00F37F27 /* POC_C-MVVM-RXTests */ = {
 			isa = PBXGroup;
 			children = (
-				5FDF0D172456D38F00F37F27 /* POC_C_MVVM_RXTests.swift */,
+				5F528B7A2476C29D0023E1B9 /* ListViewCitites */,
+				5F528B772476BF4D0023E1B9 /* Services */,
 				5FDF0D192456D38F00F37F27 /* Info.plist */,
 			);
 			path = "POC_C-MVVM-RXTests";
@@ -182,8 +204,8 @@
 		5FDF0D3B2456D7C600F37F27 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				5FDF0D652457693300F37F27 /* DetailForecast */,
 				5FDF0D3C2456D7D300F37F27 /* ListCities */,
+				5FDF0D652457693300F37F27 /* DetailForecast */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -348,6 +370,7 @@
 				5FDF0D0F2456D38F00F37F27 /* Sources */,
 				5FDF0D102456D38F00F37F27 /* Frameworks */,
 				5FDF0D112456D38F00F37F27 /* Resources */,
+				5F528B7D24770A4F0023E1B9 /* Copy carthage */,
 			);
 			buildRules = (
 			);
@@ -443,6 +466,26 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
 		};
+		5F528B7D24770A4F0023E1B9 /* Copy carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxTest.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+			);
+			name = "Copy carthage";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
 		5FDF0D3A2456D71500F37F27 /* Swift Format */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -496,7 +539,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FDF0D182456D38F00F37F27 /* POC_C_MVVM_RXTests.swift in Sources */,
+				5F528B7F24770B0B0023E1B9 /* CityViewModelTest.swift in Sources */,
+				5F528B792476BF760023E1B9 /* DataServiceMock.swift in Sources */,
+				5F528B7C2477024F0023E1B9 /* LocationTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
