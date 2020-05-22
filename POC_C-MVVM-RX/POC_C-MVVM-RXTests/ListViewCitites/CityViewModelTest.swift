@@ -14,8 +14,13 @@ class CityViewModelTest: XCTestCase {
         "name": Location(name: "location"),
     ]
 
+    private let location = Location(name: "Location")
+
+    private var cityViewModel: CityViewModel!
+
     override func setUp() {
         super.setUp()
+        cityViewModel = CityViewModel(city: location)
     }
 
     override func tearDown() {
@@ -23,8 +28,11 @@ class CityViewModelTest: XCTestCase {
         super.tearDown()
     }
 
+    func test_Name_ReturnsLocationName() {
+        XCTAssertEqual(cityViewModel.name, "Location")
+    }
+
     func test_InitFromJSON_AllFieldsAreCorrect() {
-        
         let encoder = JSONEncoder()
         guard let jsonData = try? encoder.encode(sampleJSON), let viewmodel = try? JSONDecoder().decode(CityViewModel.self, from: jsonData) else {
             return XCTFail()
