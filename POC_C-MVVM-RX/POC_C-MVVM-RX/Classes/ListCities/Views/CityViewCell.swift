@@ -8,7 +8,7 @@
 import UIKit
 
 class CityViewCell: UITableViewCell {
-    @IBOutlet private var nameLabel: UILabel!
+    @IBOutlet internal var nameLabel: UILabel!
 
     func setCity(_ name: String) {
         nameLabel.text = name

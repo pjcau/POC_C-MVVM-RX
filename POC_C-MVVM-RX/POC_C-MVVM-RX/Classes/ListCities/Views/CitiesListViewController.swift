@@ -12,7 +12,7 @@ import UIKit
 
 /// Shows a list of cities
 class CitiesListViewController: MVVMController, StoryboardInitializable {
-    @IBOutlet private var tableView: UITableView!
+    @IBOutlet internal var tableView: UITableView!
 
     var viewModel: CitiesListViewModel!
 
@@ -43,7 +43,7 @@ class CitiesListViewController: MVVMController, StoryboardInitializable {
             .disposed(by: disposeBag)
     }
 
-    private func setupCityCell(_ cell: CityViewCell, city: CityViewModel) {
+    internal func setupCityCell(_ cell: CityViewCell, city: CityViewModel) {
         cell.selectionStyle = .none
         cell.setCity(city.name)
     }

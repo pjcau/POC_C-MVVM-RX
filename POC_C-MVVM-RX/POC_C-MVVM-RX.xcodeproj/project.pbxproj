@@ -16,6 +16,7 @@
 		5F528B7C2477024F0023E1B9 /* LocationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F528B7B2477024F0023E1B9 /* LocationTest.swift */; };
 		5F528B7F24770B0B0023E1B9 /* CityViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F528B7E24770B0B0023E1B9 /* CityViewModelTest.swift */; };
 		5F528B812477C86A0023E1B9 /* CitiesListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F528B802477C86A0023E1B9 /* CitiesListViewModelTest.swift */; };
+		5F528B8424785B0D0023E1B9 /* CitiesListViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F528B8324785B0D0023E1B9 /* CitiesListViewControllerTest.swift */; };
 		5FDF0D082456D38D00F37F27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FDF0D062456D38D00F37F27 /* Main.storyboard */; };
 		5FDF0D0A2456D38F00F37F27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FDF0D092456D38F00F37F27 /* Assets.xcassets */; };
 		5FDF0D0D2456D38F00F37F27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FDF0D0B2456D38F00F37F27 /* LaunchScreen.storyboard */; };
@@ -62,6 +63,7 @@
 		5F528B7B2477024F0023E1B9 /* LocationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTest.swift; sourceTree = "<group>"; };
 		5F528B7E24770B0B0023E1B9 /* CityViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewModelTest.swift; sourceTree = "<group>"; };
 		5F528B802477C86A0023E1B9 /* CitiesListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesListViewModelTest.swift; sourceTree = "<group>"; };
+		5F528B8324785B0D0023E1B9 /* CitiesListViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesListViewControllerTest.swift; sourceTree = "<group>"; };
 		5FDF0CFD2456D38D00F37F27 /* POC_C-MVVM-RX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POC_C-MVVM-RX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FDF0D072456D38D00F37F27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5FDF0D092456D38F00F37F27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				5F528B7B2477024F0023E1B9 /* LocationTest.swift */,
 				5F528B7E24770B0B0023E1B9 /* CityViewModelTest.swift */,
 				5F528B802477C86A0023E1B9 /* CitiesListViewModelTest.swift */,
+				5F528B8324785B0D0023E1B9 /* CitiesListViewControllerTest.swift */,
 			);
 			path = ListViewCitites;
 			sourceTree = "<group>";
@@ -544,6 +547,7 @@
 			files = (
 				5F528B7F24770B0B0023E1B9 /* CityViewModelTest.swift in Sources */,
 				5F528B812477C86A0023E1B9 /* CitiesListViewModelTest.swift in Sources */,
+				5F528B8424785B0D0023E1B9 /* CitiesListViewControllerTest.swift in Sources */,
 				5F528B792476BF760023E1B9 /* DataServiceMock.swift in Sources */,
 				5F528B7C2477024F0023E1B9 /* LocationTest.swift in Sources */,
 			);
