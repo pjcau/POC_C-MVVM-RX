@@ -16,10 +16,11 @@ before_install:
 
 # install dependencies
 install:
-  - cd POC_C-MVVM-RX
+  - cd POC_C-MVVM-RX/
   - carthage bootstrap --platform iOS --cache-builds
   - cd ..
   - bundle install
+  - cd POC_C-MVVM-RX/
 
 # jobs and stages to run
 jobs:
