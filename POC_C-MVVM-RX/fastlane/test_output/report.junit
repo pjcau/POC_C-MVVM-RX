@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='POC_C-MVVM-RXTests.xctest' tests='14' failures='0'>
+  <testsuite name='POC_C_MVVM_RXTests.CitiesListViewControllerTest' tests='4' failures='0'>
+    <testcase classname='POC_C_MVVM_RXTests.CitiesListViewControllerTest' name='test_cell_from_tableview' time='0.014'/>
+    <testcase classname='POC_C_MVVM_RXTests.CitiesListViewControllerTest' name='test_count_elements_on_tableView' time='0.007'/>
+    <testcase classname='POC_C_MVVM_RXTests.CitiesListViewControllerTest' name='test_label_cell_from_tableview' time='0.008'/>
+    <testcase classname='POC_C_MVVM_RXTests.CitiesListViewControllerTest' name='test_property_check' time='0.007'/>
+  </testsuite>
+  <testsuite name='POC_C_MVVM_RXTests.CitiesListViewModelTest' tests='5' failures='0'>
+    <testcase classname='POC_C_MVVM_RXTests.CitiesListViewModelTest' name='test_Init_EmitsValidTitle' time='0.002'/>
+    <testcase classname='POC_C_MVVM_RXTests.CitiesListViewModelTest' name='test_Init_SendsValidCities' time='0.001'/>
+    <testcase classname='POC_C_MVVM_RXTests.CitiesListViewModelTest' name='test_Init_ShowDetailForecast' time='0.001'/>
+    <testcase classname='POC_C_MVVM_RXTests.CitiesListViewModelTest' name='test_Next_ShowDetailForecast' time='0.001'/>
+    <testcase classname='POC_C_MVVM_RXTests.CitiesListViewModelTest' name='test_Next_ShowValidCities' time='0.001'/>
+  </testsuite>
+  <testsuite name='POC_C_MVVM_RXTests.CityViewModelTest' tests='3' failures='0'>
+    <testcase classname='POC_C_MVVM_RXTests.CityViewModelTest' name='test_EqualityForEqualLocation_ReturnsTrue' time='0.001'/>
+    <testcase classname='POC_C_MVVM_RXTests.CityViewModelTest' name='test_InitFromJSON_AllFieldsAreCorrect' time='0.002'/>
+    <testcase classname='POC_C_MVVM_RXTests.CityViewModelTest' name='test_Name_ReturnsLocationName' time='0.001'/>
+  </testsuite>
+  <testsuite name='POC_C_MVVM_RXTests.LocationTest' tests='2' failures='0'>
+    <testcase classname='POC_C_MVVM_RXTests.LocationTest' name='test_EqualityForEqualLocation_ReturnsTrue' time='0.002'/>
+    <testcase classname='POC_C_MVVM_RXTests.LocationTest' name='test_InitFromJSON_AllFieldsAreCorrect' time='0.001'/>
+  </testsuite>
+</testsuites>

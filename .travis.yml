@@ -24,7 +24,7 @@ install:
 # jobs and stages to run
 jobs:
   include:
-    - stage: Test
-      name: Unit tests
+    - stage: "Test"
+      name: "Unit tests"
       script:
-        - bundle exec fastlane scan(scheme:"POC_C-MVVM-RXTests") 
+        - bundle exec fastlane unit_test
