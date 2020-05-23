@@ -4,7 +4,7 @@ osx_image: xcode11.5
 
 # caching of dependencies
 cache:
-  bundler: false
+  bundler: true
   directories:
     - Carthage
 
@@ -27,4 +27,4 @@ jobs:
     - stage: Test
       name: Unit tests
       script:
-        - bundle exec fastlane unit_test
+        - bundle exec fastlane scan
