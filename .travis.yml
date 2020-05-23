@@ -17,7 +17,7 @@ before_install:
 # install dependencies
 install:
   - cd POC_C-MVVM-RX
-  - travis_wait carthage bootstrap --platform iOS --cache-builds
+  - carthage bootstrap --platform iOS --cache-builds
   - bundle install
 
 # jobs and stages to run
