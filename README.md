@@ -18,7 +18,7 @@ I wanted to put together so as to have a total RX app.
 * Write code to Rxswift and Coordinator -> DONE
 * Create CitiesListCoordinator to manage the static list  -> DONE
 * Create DetailForecastCoordinator to manage the forecast for city  -> DONE
-* Added Jazzy, but there a issue opened, it's comment in the code  -> DONE
+* Added Jazzy, [link docs](https://github.com/pjcau/POC_C-MVVM-RX/blob/master/POC_C-MVVM-RX/docs/index.html) -> DONE
 * Add the Unit Test -> TO DO
 * Add Fastlane, work locally -> TO DO
 * Add the Jenkins Pipeline, Test CI and Fastlane -> TO DO
