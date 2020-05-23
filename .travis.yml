@@ -1,0 +1,31 @@
+# environment setup
+language: swift
+osx_image: xcode11.5
+
+# caching of dependencies
+cache:
+  bundler: true
+  directories:
+    - Carthage
+
+# prepare dependency managers
+before_install:
+  - brew update
+  - brew outdated carthage || brew upgrade carthage
+  - gem install bundler -v "$(grep -A 1 "BUNDLED WITH" Gemfile.lock | tail -n 1)"
+
+# install dependencies
+install:
+  - cd POC_C-MVVM-RX/
+  - carthage bootstrap --platform iOS --cache-builds
+  - cd ..
+  - bundle install
+  - cd POC_C-MVVM-RX/
+
+# jobs and stages to run
+jobs:
+  include:
+    - stage: "Test"
+      name: "Unit tests"
+      script:
+        - bundle exec fastlane unit_test

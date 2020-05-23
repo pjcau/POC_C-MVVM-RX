@@ -33,22 +33,22 @@ struct DetailForecastViewModel {
     let alertMessage: Observable<String>
 
     init(city: String, network: NetworkService = NetworkService(), days: Int = 3) {
-        let _reload = PublishSubject<Void>()
-        reload = _reload.asObserver()
+        let reload = PublishSubject<Void>()
+        self.reload = reload.asObserver()
 
-        let _city = BehaviorSubject<String>(value: city)
+        let city = BehaviorSubject<String>(value: city)
 
-        title = _city.asObservable()
+        title = city.asObservable()
             .map { "\($0)" }
 
-        let _alertMessage = PublishSubject<String>()
-        alertMessage = _alertMessage.asObservable()
+        let alertMessage = PublishSubject<String>()
+        self.alertMessage = alertMessage.asObservable()
 
-        weather = Observable.combineLatest(_reload, _city) { _, city in city }
+        weather = Observable.combineLatest(reload, city) { _, city in city }
             .flatMapLatest { city in
                 network.getForecast(for: city)
                     .catchError { error in
-                        _alertMessage.onNext(error.localizedDescription)
+                        alertMessage.onNext(error.localizedDescription)
                         return Observable.empty()
                     }
             }

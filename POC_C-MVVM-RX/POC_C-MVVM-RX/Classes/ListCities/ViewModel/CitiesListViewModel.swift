@@ -26,18 +26,17 @@ struct CitiesListViewModel {
     /// Emits an string of city selected
     let showDetailForecast: Observable<String>
 
-    init(dataService: DataService = DataService()) {
+    init(dataService: DataServiceble = DataService()) {
         title = Observable.just("Weather Cities")
 
         cities = dataService.getCities()
             .map { cities in cities.map(Location.init) }
             .map { cities in cities.map(CityViewModel.init) }
 
-        let _selectCity = PublishSubject<CityViewModel>()
-        selectCity = _selectCity.asObserver()
+        let selectCity = PublishSubject<CityViewModel>()
+        self.selectCity = selectCity.asObserver()
 
-        showDetailForecast = _selectCity.asObservable()
-
+        showDetailForecast = selectCity.asObservable()
             .map { $0.name }
     }
 }
