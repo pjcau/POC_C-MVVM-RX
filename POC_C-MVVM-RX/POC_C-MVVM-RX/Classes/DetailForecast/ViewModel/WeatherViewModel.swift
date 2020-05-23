@@ -55,7 +55,7 @@ struct MainForecatViewModel {
     var pressureLabel: String!
     var humidityLabel: String!
 
-    init(main: MainClass = MainClass(temp: nil, feelsLike: nil, tempMin: nil, tempMax: nil, pressure: nil, seaLevel: nil, grndLevel: nil, humidity: nil, tempKf: nil)) {
+    init(main: MainClass = MainClass()) {
         self.main = main
 
         currentTemperature = currentTemperature(main.temp)
