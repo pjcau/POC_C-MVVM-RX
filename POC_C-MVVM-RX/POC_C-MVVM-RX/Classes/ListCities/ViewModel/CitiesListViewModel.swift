@@ -33,10 +33,10 @@ struct CitiesListViewModel {
             .map { cities in cities.map(Location.init) }
             .map { cities in cities.map(CityViewModel.init) }
 
-        let _selectCity = PublishSubject<CityViewModel>()
-        selectCity = _selectCity.asObserver()
+        let selectCity = PublishSubject<CityViewModel>()
+        self.selectCity = selectCity.asObserver()
 
-        showDetailForecast = _selectCity.asObservable()
+        showDetailForecast = selectCity.asObservable()
             .map { $0.name }
     }
 }

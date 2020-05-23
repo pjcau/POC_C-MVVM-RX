@@ -27,4 +27,4 @@ jobs:
     - stage: Test
       name: Unit tests
       script:
-        - bundle exec fastlane scan
+        - bundle exec fastlane scan(scheme:"POC_C-MVVM-RXTests") 
