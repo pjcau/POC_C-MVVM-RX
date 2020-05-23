@@ -19,7 +19,7 @@ class CitiesListCoordinator: BaseCoordinator<Void> {
     override func start() -> Observable<Void> {
         let viewModel = CitiesListViewModel()
 
-        let viewController = CitiesListViewController.initFromStoryboard()
+        guard let viewController = CitiesListViewController.initFromStoryboard() else { return Observable.never() }
         let navigationController = AppNavigationController(rootViewController: viewController)
 
         viewController.viewModel = viewModel

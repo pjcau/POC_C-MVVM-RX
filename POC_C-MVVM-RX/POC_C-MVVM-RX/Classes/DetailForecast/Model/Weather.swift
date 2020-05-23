@@ -292,6 +292,10 @@ struct MainClass: Codable {
 // MARK: MainClass convenience initializers and mutators
 
 extension MainClass {
+    init() {
+        self = MainClass(temp: nil, feelsLike: nil, tempMin: nil, tempMax: nil, pressure: nil, seaLevel: nil, grndLevel: nil, humidity: nil, tempKf: nil)
+    }
+
     init(data: Data) throws {
         self = try newJSONDecoder().decode(MainClass.self, from: data)
     }
