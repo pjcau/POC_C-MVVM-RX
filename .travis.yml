@@ -1,9 +1,28 @@
-osx_image: xcode11.5
+# environment setup
 language: swift
+osx_image: xcode11.5
 
+# caching of dependencies
+cache:
+  bundler: true
+  directories:
+    - Carthage
+
+# prepare dependency managers
 before_install:
-- carthage update
+  - brew update
+  - brew outdated carthage || brew upgrade carthage
+  - gem install bundler -v "$(grep -A 1 "BUNDLED WITH" Gemfile.lock | tail -n 1)"
 
+# install dependencies
+install:
+  - travis_wait carthage bootstrap --platform iOS --cache-builds
+  - bundle install
 
-script:
-- fastlane scan
+# jobs and stages to run
+jobs:
+  include:
+    - stage: Test
+      name: Unit tests
+      script:
+        - bundle exec fastlane unit_test
