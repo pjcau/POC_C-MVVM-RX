@@ -1,6 +1,8 @@
 osx_image: xcode11.5
 language: swift
-os: osx
-xcode_project: POC_C-MVVM-RX.xcodeproj
-xcode_scheme: POC_C-MVVM-RX
-xcode_destination: platform=iOS Simulator,OS=13.5,name=iPhone 11
+# os: osx
+# xcode_project: POC_C-MVVM-RX.xcodeproj
+# xcode_scheme: POC_C-MVVM-RX
+# xcode_destination: platform=iOS Simulator,OS=13.5,name=iPhone 11
+script:
+- fastlane scan
