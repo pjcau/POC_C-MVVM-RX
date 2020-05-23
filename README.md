@@ -1,4 +1,4 @@
-# POC_C-MVVM-RX
+# POC_C-MVVM-RX  ![](https://travis-ci.org/pjcau/POC_C-MVVM-RX.svg?branch=master)
 Use MVVM with Coordinator and all reactive programming with RXSwift. The MVVM have some advangaes:
 
 * Collaborative working
@@ -19,6 +19,6 @@ I wanted to put together so as to have a total RX app.
 * Create CitiesListCoordinator to manage the static list  -> DONE
 * Create DetailForecastCoordinator to manage the forecast for city  -> DONE
 * Added Jazzy, [link docs](https://github.com/pjcau/POC_C-MVVM-RX/blob/master/POC_C-MVVM-RX/docs/index.html) -> DONE
-* Add the Unit Test -> TO DO
-* Add Fastlane, work locally -> TO DO
+* Add the Unit Test -> In Progress 1/2
+* Add Fastlane with Travis CI -> DONE
 * Add the Jenkins Pipeline, Test CI and Fastlane -> TO DO
