@@ -4,7 +4,7 @@ osx_image: xcode11.5
 
 # caching of dependencies
 cache:
-  bundler: true
+  bundler: false
   directories:
     - Carthage
 
