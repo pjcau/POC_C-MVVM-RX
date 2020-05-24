@@ -32,7 +32,7 @@ struct DataService: DataServiceble {
             "Oslo",
             "Sofia",
             "Dublin",
-            "Helsinki",
+            "Helsinki"
         ])
     }
 }

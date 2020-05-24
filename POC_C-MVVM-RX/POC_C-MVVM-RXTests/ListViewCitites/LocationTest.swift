@@ -11,7 +11,7 @@ import XCTest
 
 class LocationTest: XCTestCase {
     private let sampleJSON: [String: String] = [
-        "name": "location1",
+        "name": "location1"
     ]
 
     override func setUp() {
@@ -26,7 +26,7 @@ class LocationTest: XCTestCase {
     func test_InitFromJSON_AllFieldsAreCorrect() {
         let encoder = JSONEncoder()
         guard let jsonData = try? encoder.encode(sampleJSON), let location = try? JSONDecoder().decode(Location.self, from: jsonData) else {
-            return XCTFail()
+            return XCTFail("Cannot decoder jsonData to location struct")
         }
 
         XCTAssertEqual(location.name, "location1")
