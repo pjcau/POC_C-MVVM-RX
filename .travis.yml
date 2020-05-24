@@ -25,6 +25,11 @@ install:
 # jobs and stages to run
 jobs:
   include:
+    - stage: "Code validation"
+      name: "Code validation"
+      script:
+        - bundle exec danger
+
     - stage: "Test"
       name: "Unit tests"
       script:
