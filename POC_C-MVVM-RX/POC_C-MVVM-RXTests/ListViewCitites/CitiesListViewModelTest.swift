@@ -51,7 +51,7 @@ class CitiesListViewModelTest: XCTestCase {
         XCTAssertEqual(result.events.count, 2)
 
         guard let repositoryViewModel = result.events.first?.value.element?.first else {
-            return XCTFail()
+            return XCTFail("repositoryViewModel is nil")
         }
 
         XCTAssertEqual(repositoryViewModel.name, "Rome")

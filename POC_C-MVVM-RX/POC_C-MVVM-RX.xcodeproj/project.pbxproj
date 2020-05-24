@@ -356,7 +356,7 @@
 				5FDF0CFA2456D38D00F37F27 /* Frameworks */,
 				5FDF0CFB2456D38D00F37F27 /* Resources */,
 				5F3004AD246DE92A00C92830 /* copy carthage */,
-				5FDF0D3A2456D71500F37F27 /* Swift Format */,
+				5FDF0D3A2456D71500F37F27 /* Swift Format and Swift Lint */,
 			);
 			buildRules = (
 			);
@@ -377,6 +377,7 @@
 				5FDF0D102456D38F00F37F27 /* Frameworks */,
 				5FDF0D112456D38F00F37F27 /* Resources */,
 				5F528B7D24770A4F0023E1B9 /* Copy carthage */,
+				5F6D22E5247AA2010088FA53 /* Swift Format and Swift Lint */,
 			);
 			buildRules = (
 			);
@@ -492,7 +493,7 @@
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
 		};
-		5FDF0D3A2456D71500F37F27 /* Swift Format */ = {
+		5F6D22E5247AA2010088FA53 /* Swift Format and Swift Lint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -501,14 +502,32 @@
 			);
 			inputPaths = (
 			);
-			name = "Swift Format";
+			name = "Swift Format and Swift Lint";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftformat >/dev/null; then\n  swiftformat .\nelse\n  echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\nfi\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\necho \"Start swiftformat\"\n\nif which swiftformat >/dev/null; then\n  swiftformat .\nelse\n  echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\nfi\n\necho \"Start swiftlint\"\n\nif which swiftlint >/dev/null; then\n  swiftlint autocorrect\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n\n";
+		};
+		5FDF0D3A2456D71500F37F27 /* Swift Format and Swift Lint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swift Format and Swift Lint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"Start swiftformat\"\n\nif which swiftformat >/dev/null; then\n  swiftformat .\nelse\n  echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\nfi\n\necho \"Start swiftlint\"\n\nif which swiftlint >/dev/null; then\n  swiftlint autocorrect\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

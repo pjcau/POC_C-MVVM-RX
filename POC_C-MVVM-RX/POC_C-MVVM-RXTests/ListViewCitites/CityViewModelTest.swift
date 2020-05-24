@@ -11,7 +11,7 @@ import XCTest
 
 class CityViewModelTest: XCTestCase {
     private let sampleJSON: [String: Location] = [
-        "name": Location(name: "location"),
+        "name": Location(name: "location")
     ]
 
     private let location = Location(name: "Location")
@@ -35,7 +35,7 @@ class CityViewModelTest: XCTestCase {
     func test_InitFromJSON_AllFieldsAreCorrect() {
         let encoder = JSONEncoder()
         guard let jsonData = try? encoder.encode(sampleJSON), let viewmodel = try? JSONDecoder().decode(CityViewModel.self, from: jsonData) else {
-            return XCTFail()
+            return XCTFail("Cannot decoder jsonData to CityViewModel struct")
         }
 
         XCTAssertEqual(viewmodel.name, "location")
